@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "description" content="A fast Project to enable me come up to speed">
+    <link rel="stylesheet" href="main.css">
+    <title>About Us!</title>
+    <script src="main.js"></script>
+    </head>
+<body>
+    <div id="header">JAVASCRIPT</div>
+        <div id="navi">
+            <a href="index.html">Home</a><br/>
+            <a href="index.html">Gallery</a><br/>
+            <a href="index.html">Contact</a><br/>
+            <a href="about.html">About Us</a> <br/>
+            <a href="#simple">Simple Prompt</a>
+            <a href="#time-date">Time and date</a>
+            <a href="#picture">Picture Changer</a>
+            <a href="#input">Verify Input</a>
+        </div>
+    
+    <div id="content">
+        <h1>Script Me!</h1>
+        <p><em>Note:: These codes were not copied, they were understood and impplemented, after-all, practice makes perfect</em></p>
+        <p>I just started EMCAscript and one very remarkable thing about it is it's ability to make the page responsive, by doing multiple action s without the page reloading. Nelow are some basic stuffs we can do with javascript.</p>
+        
+        <h2 id="simple">The simplest types on in-line scripting</h2>
+        <p>In this we just tell the "<em>alert</em>" component to print out a prompt</p><hr/>
+        <button type="button" onclick="alert('Never Stress Me!!')">Click For Prompt</button>
+       
+        <p>From My Observation, the special character (<em>' </em>) does not work as input for the <em>alert</em> component</p>
+        <br/>
+        
+        <h2 id="time-date">Javascriot Changing the time and date</h2>
+        <p>In this part, we would Check out how Javascript can change the time and date by using the "<em>document</em>" tag, and the "<em>getElementById</em>" tag to change the object obtained by changing the "<em>innerHTML</em>" component to what we want, in this case "<em>Date()</em>"</p><hr/>
+        <button type="button" onclick="document.getElementById('timey').innerHTML = Date()">Click To Display Time and Date below</button><br/>
+        <p id="timey"></p>
+        <br />
+        
+        <h2 id="picture">Javascript Changing the pictures</h2>
+        <p>In this Part we see how Javascript can change the picture by clicking on it, this produces the visual effect of you putting on the bulb</p><hr/>
+        <p>Click the bulb to turn it on!</p>
+        <img id="myImage" src="bulb_off.jpg" height="120" width="100" alt="A bulb that is off" onclick="changeImage()"><br/>
+        
+        <h2 id="input">Javascript checks the input</h2>
+        <p>This part is a very useful too for forms and rectification of the said forms, this part shows how Javascript authenticates the input in forms</p><hr/>
+        <input id="numbr">
+        <button type="button" onclick="myFunctn()">SUBMIT</button>
+        <p id="output"></p>
+        
+   
+    </div>
+   <div id="footer">
+         Copyright © stressme.com   
+    </div>
+    </body>
+</html>
