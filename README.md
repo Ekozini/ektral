@@ -1,2 +1,2 @@
 # ektral
-What makes me Me
+Trying to put up some projects, at last
